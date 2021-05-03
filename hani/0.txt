@@ -1,0 +1,9 @@
+function add(a,b)
+{return (Number(a)+Number(b));}
+function sub(a,b)
+{return (Number(a)-Number(b));}
+function div(a,b)
+{return (Number(a)/Number(b));}
+function mul(a,b){
+return (Number(a)*Number(b));}
+var x = prompt ("Please enter the first  value");while(true){var op = prompt ("Please enter the operation +,-,/,*  or -1 to quite");if (op == -1){break;}var y = prompt ("Please enter the second  value");if (op == '+'){x = add(x,y);}if (op == '-'){x = sub(x,y);}if (op == '/'){x = div(x,y);}if (op == '*'){x = mul(x,y);}alert("the result = "+x);}

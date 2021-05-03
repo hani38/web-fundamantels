@@ -1,0 +1,83 @@
+
+Alaa@Alaa-PC MINGW64 ~/Desktop
+$ mkdir test
+
+Alaa@Alaa-PC MINGW64 ~/Desktop
+$ cd test
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ touch index.html
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ touch style.css
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ touch comands.txt
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ ../
+bash: ../: Is a directory
+
+Alaa@Alaa-PC MINGW64 ~/Desktop/test
+$ cd ..
+
+Alaa@Alaa-PC MINGW64 ~/Desktop
+$ mkdir destination
+
+Alaa@Alaa-PC MINGW64 ~/Desktop
+$ cd
+
+Alaa@Alaa-PC MINGW64 ~
+$ cd test
+bash: cd: test: No such file or directory
+
+Alaa@Alaa-PC MINGW64 ~
+$ cd test
+bash: cd: test: No such file or directory
+
+Alaa@Alaa-PC MINGW64 ~
+$ cd .
+
+Alaa@Alaa-PC MINGW64 ~
+$ cd desktop
+
+Alaa@Alaa-PC MINGW64 ~/desktop
+$ cd test
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ mv index_2.html../destination
+mv: missing destination file operand after 'index_2.html../destination'
+Try 'mv --help' for more information.
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ mv index_2.html ../destination
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ rm style.css
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ rm destination
+rm: cannot remove 'destination': No such file or directory
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ cd..
+bash: cd..: command not found
+
+Alaa@Alaa-PC MINGW64 ~/desktop/test
+$ cd ..
+
+Alaa@Alaa-PC MINGW64 ~/desktop
+$ rm destination
+rm: cannot remove 'destination': Is a directory
+
+Alaa@Alaa-PC MINGW64 ~/desktop
+$ rm -rf destination
+
+Alaa@Alaa-PC MINGW64 ~/desktop
+$ ^C
+
+Alaa@Alaa-PC MINGW64 ~/desktop
+$
